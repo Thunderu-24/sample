@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .container1{
+            background-image: url("./img/tm-astro-bg.jpg");
+            background-size: cover;
+        }
+        #color-white{
+            color: white;
+        }
+        .inter-box1{
+            border-bottom: 2px solid white;
+            border-top: 2px solid white;
+        }
+        .center1{
+            text-align: center;
+        }
+        .head1{
+            padding: 20px;
+            background-color: rgba(50, 49, 49, 0.512);
+            margin: 10px;
+        }
+        .box1{
+            height: 1rem;
+            width: 1rem;
+            border-radius: 50px;
+            background-color: white;
+            position: relative;
+            top: 38px;
+            left: 20px;
+            
+        }
+        .box2{
+            height: 1rem;
+            width: 1rem;
+            border-radius: 50px;
+            background-color: white;
+            position: relative;
+            top: 22px;
+            float: inline-end;
+            right: 20px;
+        }
+        .p2img1{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            margin: 30px;
+            padding: 20px;
+            border-top: 2px solid white;
+        }
+        .p2img2{
+            width: 100%;
+            padding: 2px;
+        }
+        .round1{
+            width: 1rem;
+            height: 1rem;
+            border-radius: 50px;
+            margin-right: 8px;
+        }
+        .round2{
+            width: 1rem;
+            height: 1rem;
+            border-radius: 50px;
+            background-color: white;
+            margin-right: 8px;
+        }
+        .rounded1{
+            display: flex;
+            justify-content: center;
+        }
+
+        @media only screen and (min-width: 992px){
+            .container1{
+            background-image: url("./img/tm-astro-bg.jpg");
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            }
+            .box-styling{
+                border-bottom: 2px solid white;
+                padding-left: 20px;
+                padding-right: 20px;
+                margin-right: 30px;
+            }
+            .pad1{
+                padding: 30px;
+            }
+            .dot-styling{
+                width: 10px;
+                height: 10px;
+                background-color: white;
+                border-radius: 50px;
+                margin-left: 45px;
+                margin-top: -5px;
+            }
+            .padd2{
+                margin-bottom: 13px;
+            }
+            .p2img1{
+                display: flex;
+            }
+
+            .footer1{
+                display: flex;
+                padding: 10px;
+                justify-content: space-between;
+            }
+            .p2centered{
+                display: flex;
+                flex-direction: column;
+            }
+            .box2{
+            height: 1rem;
+            width: 1rem;
+            border-radius: 50px;
+            background-color: white;
+            position: relative;
+            top: 22px;
+            float: inline-end;
+            right: 39px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container1">
+        <header>
+            <nav class="navbar navbar-expand-lg bg-transparent" id="nav1">
+                <div class="container-fluid pad1">
+                  <a class="navbar-brand" href="#" id="color-white">Astro Motion</a>
+                  <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                     
+                      <div>
+                        <div class="box-styling">
+                            <a class="nav-link padd2"href="#" id="color-white">Home</a>
+                        </div>
+                        <div class="dot-styling">
+                        </div>
+                      </div>
+                      
+                      <div>
+                        <div class="box-styling">
+                            <a class="nav-link padd2"href="#" id="color-white">Gallery</a>
+                        </div>
+                        <div class="dot-styling">
+                        </div>
+                      </div>
+
+                      <div>
+                        <div class="box-styling">
+                            <a class="nav-link padd2"href="#" id="color-white">About</a>
+                        </div>
+                        <div class="dot-styling">
+                        </div>
+                      </div>
+
+
+                      <div>
+                        <div class="box-styling">
+                            <a class="nav-link padd2"href="#" id="color-white">Contact</a>
+                        </div>
+                        <div class="dot-styling">
+                        </div>
+                      </div>
+
+
+                    </div>
+                  </div>
+                </div>
+            </nav>
+            
+        </header>
+
+        <article>
+            <div class="box1">
+
+            </div>
+            <div class="box2">
+            </div>
+
+            <div class="p2centered">
+                <div class="p2img1">
+                
+                    <div>
+                        <img src="./img/gallery-img-01.jpg" alt="" class="p2img2">
+                    </div>
+                    <div>
+                        <img src="./img/gallery-img-02.jpg" alt="" class="p2img2">
+                    </div>
+                    <div>
+                        <img src="./img/gallery-img-03.jpg" alt="" class="p2img2">
+                    </div>
+                    <div>
+                        <img src="./img/gallery-img-04.jpg" alt="" class="p2img2">
+                    </div>
+                    <div>
+                        <img src="./img/gallery-img-05.jpg" alt="" class="p2img2">
+                    </div>
+                    <div>
+                        <img src="./img/gallery-img-06.jpg" alt="" class="p2img2">
+                    </div>
+                </div>
+    
+                <div class="rounded1">
+                    <div class="round1 bg-primary">
+                    </div>
+                    <div class="round2">
+                    </div>
+                    <div class="round2">
+                    </div>
+    
+                </div>
+            </div>
+        </article>
+
+
+        <footer>
+            <div class="center1 footer1" id="color-white">
+                <p>Copyright 2021 Astro Motion Company Limited. All rights reserved.</p>
+                <p>Designed by Thunderu</p>
+            </div>
+        </footer>
+    </div> 
+    
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
